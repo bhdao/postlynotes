@@ -10,7 +10,6 @@ const NoteSchema = mango({
   },
   body: {
     type: String,
-    required: true,
   },
   status: {
     type: String,
